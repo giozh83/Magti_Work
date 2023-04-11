@@ -1,0 +1,218 @@
+
+
+
+/* .parent{ 
+    display: flex;      
+    background-color: rgb(191, 224, 224);    
+    flex-wrap: wrap;
+    margin: auto auto;
+    
+} */
+.chiled1{
+    
+    /* padding-left: 22%; */
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vh;
+    /* border-radius: 10%; */
+    /* margin-left: 1%; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 1%;
+    
+    
+}
+
+.but:hover{
+    background-color: rgb(211, 237, 237);
+}
+
+.but:active{
+    background-color: rgb(155, 171, 171);
+    border-radius: 40%;
+}
+
+
+/* .childe2{
+    
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10%;
+    margin-left: 1%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+@keyframes animacia{
+    from{color:rgb(233, 242, 242)}
+    to{color: red;}
+}
+
+@keyframes animacia_but{
+    from{color:rgb(233, 242, 242)}
+    to{color: black;}
+}
+
+
+.test_hq{
+    
+    
+    animation-name: animacia; 
+    animation-duration: 5s;
+    
+     /* animation-delay:15s; */
+    
+}
+
+
+.text_tavaki{
+    /* text-shadow: 2px 1px; */
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.row{
+    /* background-color: rgb(91, 140, 124); */
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+/* input css---------------------------------------------------------------------------- */
+
+.paret_input{
+   
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+    
+ 
+   
+}
+.but_cont{
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* border-radius: 5%; */
+    background-color: rgb(233, 242, 242);
+    border: 1px solid black;
+    box-shadow: 5px 10px gray
+    
+    
+}
+
+.chiled1_input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.head_t{
+    /* border:1px solid rgb(205, 204, 204) ; */
+    color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* button csss */
+.borde{
+    margin-left: 2%;
+}
+
+.but_1{
+    margin: auto auto;
+    animation-name: animacia_but; 
+    animation-duration: 5s;
+    
+    
+}
+
+.but_1:hover{
+    text-shadow: 1px 1px 2px rgb(234, 231, 231), 0 0 25px red, 0 0 5px darkblue;
+}
+
+
+
+hr{
+    border:1px solid rgb(205, 204, 204) ;
+}
+
+.buto{
+    
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+   
+}
+
+.but_but{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto; */
+    margin-bottom: 1%;
+    /* justify-content: center; */
+    
+}
+
+.button-89 {
+    
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+
+  .col1:hover{
+    cursor: pointer;
+    /* background-color: aquamarine; */
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+    
+  }
+
+
+
